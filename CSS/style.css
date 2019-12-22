@@ -435,6 +435,7 @@ h2 {
 #content_right {
     width: 70%;
     vertical-align: top;
+    padding-left: 2em;
 }
 
 .content_lang {
@@ -456,4 +457,13 @@ h2 {
 #topimg{
     width: 100%;
     height: auto;
+}
+
+.git_link{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.cont_hr{
+    color: rgba(53, 53, 53, 0.781);
 }
