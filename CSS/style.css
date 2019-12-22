@@ -345,3 +345,80 @@ header {
         border-radius: 50%;
     }
 }
+
+.contents_title{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+
+h4 {
+    padding: 0.2em;
+    /*文字周りの余白*/
+    color: #494949;
+    /*文字色*/
+    border-left: solid 5px #ffae00;
+    /*左線（実線 太さ 色）*/
+}
+
+.contents {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 50;
+}
+
+.title {
+    /* top:-1em; */
+    color: rgb(255, 255, 255);
+}
+
+.info {
+    font-size: 50%;
+    color: darkgray;
+}
+
+body {
+    /* margin-left: 2em;
+    margin-right: 2em; */
+    /* background: -webkit-linear-gradient(to top, #ffb60f, #ffffff);   */
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, rgba(255, 191, 15, 0.164) 0%, #ffffff 100%);
+    /* height: 100vh; */
+}
+
+h2 {
+    color: rgb(255, 94, 0)
+}
+
+
+/* アプリドロワー */
+
+.appTitle {
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    font-size: 15pt;
+}
+
+.appinfo {
+    font-weight: thin;
+    font-size: 8pt;
+    color: rgb(53, 53, 53);
+}
+
+#appDrawer {
+    z-index: 10;
+}
+
+#appGrid {
+    table-layout: fixed;
+}
+
+.appicon {
+    color: rgb(255, 174, 0);
+}
+
+.apptr {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
