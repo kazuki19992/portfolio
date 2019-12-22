@@ -441,7 +441,7 @@ h2 {
 
 .content_lang {
     font-size: 20pt;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: rgb(53, 53, 53);
 }
 
