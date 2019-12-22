@@ -422,3 +422,38 @@ h2 {
 .apptr {
     border: 1px solid rgba(0, 0, 0, 0);
 }
+
+#contents_intro {
+    width: 90%;
+    text-align: center;
+}
+
+#content_left {
+    width: 30%;
+}
+
+#content_right {
+    width: 70%;
+    vertical-align: top;
+}
+
+.content_lang {
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}
+
+.intro{
+    color: rgb(53, 53, 53);
+}
+
+.intro h5 {
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    font-size: 30pt;
+}
+
+#topimg{
+    width: 100%;
+    height: auto;
+}
