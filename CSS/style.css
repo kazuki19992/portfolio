@@ -430,6 +430,7 @@ h2 {
 
 #content_left {
     width: 30%;
+    vertical-align: top;
 }
 
 #content_right {
@@ -454,7 +455,7 @@ h2 {
     font-size: 30pt;
 }
 
-#topimg{
+.topimg{
     width: 100%;
     height: auto;
 }
