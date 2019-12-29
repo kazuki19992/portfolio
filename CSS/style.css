@@ -479,4 +479,25 @@ h2 {
         background-color: #000000;
         /* height: 100vh; */
     }
+
+    #nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        /*最前面に*/
+        width: 90%;
+        /*右側に隙間を作る（閉じるカバーを表示）*/
+        max-width: 330px;
+        /*最大幅（調整してください）*/
+        height: 100%;
+        background: rgba(0, 0, 0, 0.76);
+        /*背景色*/
+        transition: .3s ease-in-out;
+        /*滑らかに表示*/
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);
+        /*左に隠しておく*/
+    }
 }
